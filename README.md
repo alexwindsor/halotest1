@@ -18,3 +18,5 @@ Instructions for installation :
   edit .env file with your login credentials
 
   php artisan migrate --seed
+  
+  php artisan serve
