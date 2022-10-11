@@ -36,9 +36,11 @@
                 </div>
             @endif
 
-            @php
-                $user = Users::first(1);
-            @endphp
+            {{-- @php
+                $user = User::first();
+            @endphp --}}
+
+            @dd($user);
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
