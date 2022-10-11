@@ -1,5 +1,5 @@
 
-Quicl note on test :
+Quick note on test :
 The line in welcome.blade.php :
 
 @php
